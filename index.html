@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="socialred/font.css">
+    <link rel="stylesheet" href="socialred/main.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="icon" href="imgmia/favicon.ico">
     <title>Chopp Rosario</title>
 
     <!-- Bootstrap core CSS -->
@@ -22,56 +27,76 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+
+   
 
   </head>
 
   <body id="page-top">
-
+    <div class="social-bar">
+      <a href="https://api.whatsapp.com/send?phone=[54][3415074021]" class="icon icon-whatsapp" target="_blank"></a>
+      <a href="https://www.facebook.com/chopp.rosario" class="icon icon-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/chopp_rosario" class="icon icon-instagram" target="_blank"></a>
+  </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Chopp Rosario</a>
+        
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"> 
+          <img class="navbar-logo" src="imgmia/logopagina.png" alt="">
+        </a> 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+              
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Chopp Rosario</a>
+              <a class="nav-link js-scroll-trigger" href="#choperas">Choperas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Choperas</a>
+              <a class="nav-link js-scroll-trigger" href="#marcas">Barriles y Marcas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Cervezas</a>
+              <a class="nav-link js-scroll-trigger" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacto aca</a>
+              <a class="nav-link js-scroll-trigger" href="#repuestos">Repuestos / Mantenimiento</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#latas">Promo de Latas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex">
+    <header class="masthead text-center  d-flex">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+              <strong>Chopp Rosario</strong><br>Tienda de choperas
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+            <p class=" mb-5 " >
+              <h4 class="text-uppercase">Alquiler y venta de choperas<br>Alquiler y venta de barriles de cerveza<br>Venta de repuestos y asesoramiento<br>
+            Venta de latas y otras promociones</p>
+            </h4>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <!--<section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -82,55 +107,365 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+    <section id="choperas">
+      <section class="p-0" >
+          <div class="separador" id="choperas">
+            <hr>  
+            <strong> Choperas </strong>
+             </div>
 
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
-            <hr class="my-4">
+      <div class="container-fluid" >
+          
+        <div class="row popup-gallery">
+          <div class="col-lg-3 col-sm-6" >
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="imgmia/vertical1.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      Chopera Plastica Standar
+                    </div>
+                    <div class="project-name">
+                      Chopera a hielo tradicional. Cuenta con 28 metros de caÃ±o de aluminio con 7mm de espesor.
+                      Regulador de gas, conector para barril, tubo CO2
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+          </div>
+          <div class="col-lg-3 col-sm-6">
+              <img class="img-fluid" src="imgmia/choppmiller.jpeg" alt="">
+          </div>
+          <div class="col-lg-3 col-sm-6">
+              <img class="img-fluid" src="imgmia/chopppilon.jpeg" alt="">
+          </div>
+          <div class="col-lg-3 col-sm-6">
+              <img class="img-fluid" src="imgmia/vertical1.jpg" alt="">
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
-              <h3 class="mb-3">Chopp Rosario</h3>
-              <p class="text-muted mb-0">¿Quienes somos? y que servicio brindamos</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
-              <h3 class="mb-3">Choperas</h3>
-              <p class="text-muted mb-0">Conocé nuestras choperas !</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-              <h3 class="mb-3">Chopp y Marcas</h3>
-              <p class="text-muted mb-0">Porque elegir chopp y que marca elegir</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-              <h3 class="mb-3">Contacto</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="p-0" id="portfolio">
+
+
+      </div>
+    
+      <!--<div class="container-fluid">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="imgmia/vertical1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Chopera Plastica Standar
+                  </div>
+                  <div class="project-name">
+                    Chopera a hielo tradicional. Cuenta con 28 metros de caÃ±o de aluminio con 7mm de espesor.
+                    Regulador de gas, conector para barril, tubo CO2
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="imgmia/vertical1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="imgmia/vertical1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Choperas a Hielo
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 ">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="imgmia/vertical1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category  q q 
+                  </div>
+                  <div class="project-name">
+                    Project Name12212
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+      </div>
+      -->
+    </section>
+    <section id="marcas">
+        <section class="p-0" >
+            <div class="separador" id="choperas">
+              <hr>  
+              <strong> Barriles y Marcas </strong>
+               </div>
+          <div class="container-fluid">
+              
+            <div class="row popup-gallery row justify-content-md-center ">
+            
+              <div class="col-lg-2 col-sm-6">
+                <a class="portfolio-box" href="imgmia/marcas/calibrestfe.jpeg" alt="Logo Santa Fe">
+                  <img class="img-fluid" src="imgmia/marcas/logostfe.jpeg" alt="Logo Santa Fe">
+                  <div class="portfolio-box-caption">
+                        <div class="project-category text-faded">
+                          <img class="img-fluid" src="imgmia/marcas/calibrestfe.jpeg" alt="Calibre Santa Fe"> 
+                      </div>
+                    </div>
+                  </a>
+    
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                <a class="portfolio-box" href="imgmia/marcas/calibrequilmes.jpeg" alt="Logo Santa Fe">
+                  <img class="img-fluid" src="imgmia/marcas/logoquilmes.jpeg" alt="Logo Santa Fe">
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-faded">
+                          <img class="img-fluid" src="imgmia/marcas/calibrequilmes.jpeg" alt="Calibre Santa Fe"> 
+                      </div>
+                    </div>
+                  </a>
+    
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                <a class="portfolio-box" href="imgmia/marcas/calibrepatagonia.jpeg" alt="Logo patagonia">
+                  <img class="img-fluid" src="imgmia/marcas/logopatagonia.jpeg" alt="Logo patagonia">
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-faded">
+                          <img class="img-fluid" src="imgmia/marcas/calibrepatagonia.jpeg" alt="Calibre patagonia"> 
+                        </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                <a class="portfolio-box" href="imgmia/marcas/calibreandes.jpeg" alt="Logo andes">
+                  <img class="img-fluid" src="imgmia/marcas/logoandes.jpeg" alt="Logo andes">
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-faded">
+                          <img class="img-fluid" src="imgmia/marcas/calibreandes.jpeg" alt="Calibre andes"> 
+                        </div>
+                    </div>
+                  </a>
+              </div>
+
+              <div class="col-lg-2 col-sm-6">
+                <a class="portfolio-box" href="imgmia/marcas/calibrestella.jpeg" alt="Logo stella">
+                  <img class="img-fluid" src="imgmia/marcas/logostella.jpeg" alt="Logo stella">
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-faded">
+                          <img class="img-fluid" src="imgmia/marcas/calibrestella.jpeg" alt="Calibre stella"> 
+                        </div>
+
+                    </div>
+                  </a>
+              </div>
+          <div class=" row popup-gallery row justify-content-md-center">
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibrebrahma.jpeg" alt="Logo brahma">
+                <img class="img-fluid" src="imgmia/marcas/logobrahma.jpeg" alt="Logo brahma">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibrebrahma.jpeg" alt="Calibre brahma"> 
+                      </div>
+
+                  </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibreisenbeck.jpeg" alt="Logo isenbeck">
+                <img class="img-fluid" src="imgmia/marcas/logoisenbeck.jpeg" alt="Logo isenbeck">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibreisenbeck.jpeg" alt="Calibre isenbeck"> 
+                      </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibremiller.jpeg" alt="Logo miller">
+                <img class="img-fluid" src="imgmia/marcas/logomiller.jpeg" alt="Logo miller">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibremiller.jpeg" alt="Calibre miller"> 
+                      </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibreschneider.jpeg" alt="Logo schneider">
+                <img class="img-fluid" src="imgmia/marcas/logoschneider.jpeg" alt="Logo schneider">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibreschneider.jpeg" alt="Calibre schneider"> 
+                      </div>
+                  </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibreimperial.jpeg" alt="Logo imperial">
+                <img class="img-fluid" src="imgmia/marcas/logoimperial.jpeg" alt="Logo imperial">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibreimperial.jpeg" alt="Calibre imperial"> 
+                      </div>
+                  </div>
+                </a>
+            </div>
+          <div class="row popup-gallery row justify-content-md-center">
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibrewarsteiner.jpeg" alt="Logo warsteiner">
+                <img class="img-fluid" src="imgmia/marcas/logowarsteiner.jpeg" alt="Logo warsteiner">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibrewarsteiner.jpeg" alt="Calibre warsteiner"> 
+                      </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibregrolsch.jpeg" alt="Logo grolsch">
+                <img class="img-fluid" src="imgmia/marcas/logogrolsch.jpeg" alt="Logo grolsch">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibregrolsch.jpeg" alt="Calibre grolsch"> 
+                      </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <a class="portfolio-box" href="imgmia/marcas/calibreheineken.jpeg" alt="Logo heineken">
+                <img class="img-fluid" src="imgmia/marcas/logoheineken.jpeg" alt="Logo heineken">
+                  <div class="portfolio-box-caption">
+                      <div class="project-category text-faded">
+                        <img class="img-fluid" src="imgmia/marcas/calibreheineken.jpeg" alt="Calibre heineken"> 
+                      </div>
+                  </div>
+                </a>
+            </div>
+            <!--  <div class="col-lg-2 col-sm-6">
+                  <a class="portfolio-box" href="imgmia/marcas/caliquilmes.jpeg"></a>
+                  <img class="img-fluid" src="imgmia/marcas/logoquilmes.jpeg" alt="">
+                  
+                </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logopatagonia.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logostella.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logoandes.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logobrahma.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logoisenbeck.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logomiller.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logoschneider.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logoimperial.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logowarsteiner.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logogrolsch.jpeg" alt="">
+              </div>
+              <div class="col-lg-2 col-sm-6">
+                  <img class="img-fluid" src="imgmia/marcas/logoheineken.jpeg" alt="">
+              </div>
+            </div>-->
+    
+    
+    
+          </div>
+          
+          
+        </section>
+      
+    </section>
+    <section id="servicios">
+      <section class="p-0" >
+        <div class="separador" id="servicios">
+          <hr>  
+          <strong> Servicios </strong>
+          <div class="container-fluid">
+              
+              <div class="row popup-gallery row justify-content-md-center ">
+              
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="imgmia/estandar.png" alt="Logo Santa Fe">
+                    <img class="img-fluid" src="imgmia/tituloestandar.png" alt="Logo Santa Fe">
+                    <div class="portfolio-box-caption">
+                          <div class="project-category text-faded">
+                            <img class="img-fluid" src="imgmia/estandar.png" alt="Calibre Santa Fe"> 
+                          </div>                        
+                      </div>
+                    </a>
+      
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="imgmia/premium.png" alt="Logo Santa Fe">
+                    <img class="img-fluid" src="imgmia/titulopremium.png" alt="Logo Santa Fe">
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-faded">
+                            <img class="img-fluid" src="imgmia/premium.png" alt="Calibre Santa Fe"> 
+                          </div>
+                      </div>
+                    </a>
+      
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="imgmia/vip.png" alt="Logo patagonia">
+                    <img class="img-fluid" src="imgmia/titulovip.png" alt="Logo patagonia">
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-faded">
+                            <img class="img-fluid" src="imgmia/vip.png" alt="Calibre patagonia"> 
+                          </div>
+                      </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <a class="portfolio-box" href="imgmia/eventos.png" alt="Logo andes">
+                    <img class="img-fluid" src="imgmia/tituloeventos.png" alt="Logo andes">
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-faded">
+                            <img class="img-fluid" src="imgmia/eventos.png" alt="Calibre andes"> 
+                          </div>
+                      </div>
+                    </a>
+                </div>
+  
+        
+    <!--<section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
+          <div class="row no-gutters popup-gallery">
             <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
               <img class="img-fluid" src="imgmia/1.jpg" alt="">
               <div class="portfolio-box-caption">
@@ -147,7 +482,7 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <img class="img-fluid" src="imgmia/4.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -162,7 +497,7 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <img class="img-fluid" src="imgmia/3.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -177,7 +512,7 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <img class="img-fluid" src="imgmia/5.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -228,32 +563,215 @@
       <div class="container text-center">
         <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
         <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
+      </div>-->
     </section>
 
+    
+    <section id="repuestos">
+      <section class="p-0" >
+        <div class="separador" id="repuestos">
+          <hr>  
+          <strong> Repuestos y Mantenimiento </strong>
+          <div class="container-fluid">
+              
+              <div class="row popup-gallery row justify-content-md-center ">
+              
+                   <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/cona.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/cong.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/cons.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/reg.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/cani.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/pilo2c.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/pilo1c.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/bdg.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/oring.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/ser.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/repuestos/instalacion.png" alt="">
+                  </div>
+                  <div class="col-lg-2 col-sm-6">
+                      <img class="img-fluid" src="imgmia/marcas/logoheineken.jpeg" alt="">
+                  </div>
+                </div>
+              </section>
+              <section id="latas">
+                <section class="p-0" >
+                  <div class="separador" id="repuestos">
+                    <hr>  
+                    <strong> PROMO DE LATAS </strong>
+                    <div class="container-fluid">
+                        
+                        <div class="row popup-gallery row justify-content-md-center ">
+                        
+                             <div class="col-lg-2 col-sm-6">
+                              <img class="img-fluid" src="imgmia/latas/lisen.jpeg" alt="">
+                          </div>
+                          <div class="col-lg-2 col-sm-6">
+                              <img class="img-fluid" src="imgmia/latas/lstfe.jpeg" alt="">
+                          </div>
+                          <div class="col-lg-2 col-sm-6">
+                              <img class="img-fluid" src="imgmia/latas/lwars.jpeg" alt="">
+                          </div>
+                          <div class="col-lg-2 col-sm-6">
+                              <img class="img-fluid" src="imgmia/latas/lamstel.jpeg" alt="">
+                          </div>
+                            <div class="col-lg-2 col-sm-6">
+                                <img class="img-fluid" src="imgmia/latas/lmiller.jpeg" alt="">
+                            </div>
+                            <div class="col-lg-2 col-sm-6">
+                                <img class="img-fluid" src="imgmia/latas/lbud.jpeg" alt="">
+                            </div>
+                          </div>
+                          <div class="row popup-gallery row justify-content-md-center ">
+                            <div class="col-lg-2 col-sm-6">
+                                <img class="img-fluid" src="imgmia/latas/laroja.jpeg" alt="">
+                            </div>
+                          
+                          
+                          <div class="col-lg-2 col-sm-6">
+                                <img class="img-fluid" src="imgmia/latas/lanegra.jpeg" alt="">
+                            </div>
+                            <div class="col-lg-2 col-sm-6">
+                                <img class="img-fluid" src="imgmia/latas/laipa.jpeg" alt="">
+                            </div>
+                            <div class="col-lg-2 col-sm-6">
+                                <img class="img-fluid" src="imgmia/latas/latrigo.jpeg" alt="">
+                            </div>
+                            <div class="col-lg-2 col-sm-6">
+                                <img class="img-fluid" src="imgmia/latas/larubia.jpeg" alt="">
+                            </div>
+                            
+                            
+                          </div>
+
+                          <div class="row popup-gallery row justify-content-md-center ">
+                              <div class="col-lg-2 col-sm-6">
+                                  <img class="img-fluid" src="imgmia/latas/limipa.jpeg" alt="">
+                              </div>
+                            
+                            <div class="col-lg-2 col-sm-6">
+                                  <img class="img-fluid" src="imgmia/latas/limpapa.jpeg" alt="">
+                              </div>
+                              <div class="col-lg-2 col-sm-6">
+                                  <img class="img-fluid" src="imgmia/latas/limpgol.jpeg" alt="">
+                              </div>
+                              <div class="col-lg-2 col-sm-6">
+                                  <img class="img-fluid" src="imgmia/latas/linegra.jpeg" alt="">
+                              </div>
+                              <div class="col-lg-2 col-sm-6">
+                                  <img class="img-fluid" src="imgmia/latas/limprub.jpeg" alt="">
+                              </div>
+                              <div class="col-lg-2 col-sm-6">
+                                  <img class="img-fluid" src="imgmia/latas/liroja.jpeg" alt="">
+                              </div>
+                              
+                            </div>
+                            
+                            
+                            <div class="row popup-gallery row justify-content-md-center ">
+                                <div class="col-lg-2 col-sm-6">
+                                    <img class="img-fluid" src="imgmia/latas/lataqrl.png" alt="">
+                                </div>
+                              
+                              <div class="col-lg-2 col-sm-6">
+                                    <img class="img-fluid" src="imgmia/latas/lbrahma.jpeg" alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-6">
+                                    <img class="img-fluid" src="imgmia/latas/lquirubia.jpeg" alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-6">
+                                    <img class="img-fluid" src="imgmia/latas/lquibock.jpeg" alt="">
+                                </div>
+                                <div class="col-lg-2 col-sm-6">
+                                    <img class="img-fluid" src="imgmia/latas/lquistout.jpeg" alt="">
+                                </div>
+
+                                
+                              </div>
+                              <div class="row popup-gallery row justify-content-md-center ">
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lgrolsch.jpeg" alt="">
+                                  </div>
+                                
+                                <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lstella.jpeg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lperoni.jpeg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lheineken.jpeg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lpipa.jpeg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lpamber.jpeg" alt="">
+                                  </div>
+                                  
+                                </div>
+                                <div class="row popup-gallery row justify-content-md-center ">
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lschne.jpeg" alt="">
+                                  </div>
+                                
+                                <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lschnegra.jpeg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/lschroja.jpeg" alt="">
+                                  </div>
+                                  <div class="col-lg-2 col-sm-6">
+                                      <img class="img-fluid" src="imgmia/latas/l1890.jpeg" alt="">
+                                  </div>
+
+                                </div>
+                                
+                              
+                        </section>
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading">Contacto</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            <p class="mb-5">Podes escribirnos por Whatsapp o llamarnos, tambien podes realizar tus consultas o pedidos por e-mail o redes sociales</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>123-456-6789</p>
+            <p>341-5074021</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:alquilerdechoperas@hotmail.com">alquilerdechoperas@hotmail.com</a>
             </p>
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
