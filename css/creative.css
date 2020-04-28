@@ -294,7 +294,7 @@ header.masthead p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 14 px;
-  font-weight: 600;
+  /*font-weight: 600;*/
   text-transform: uppercase;
 }
 
@@ -312,7 +312,7 @@ header.masthead p {
 
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 19px;
+    font-size: 17px;
     
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
